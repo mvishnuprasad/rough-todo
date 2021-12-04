@@ -5,6 +5,7 @@
   box-sizing: border-box;
   user-select: none;
 }
+/* Style for the login page */
 
 .bgimg {
   background: url("/assets/bg.jpg");
@@ -102,3 +103,33 @@
     text-decoration: underline;
   }
   
+  /* style for home page */
+  .hbgimg {
+    background: url("/assets/hbg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  
+  }
+  .hbgimg:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+     
+  }
+
+  
+  .navbar{
+      z-index: 999;
+  }
+ 
+  .navbar a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
