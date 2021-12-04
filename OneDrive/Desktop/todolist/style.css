@@ -85,3 +85,20 @@
     text-decoration: none;
     color: white;
 }
+
+ 
+  
+  .signup{
+      margin-top:10px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+  }
+  .signup a{
+    color: #3498db;
+    text-decoration: none;
+  }
+  .signup a:hover{
+    text-decoration: underline;
+  }
+  
